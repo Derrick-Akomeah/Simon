@@ -1,53 +1,94 @@
 body {
-  text-align: center;
-  background-color: #011F3F;
+	text-align: center;
+	background-color: #011f3f;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+	font-family: "Press Start 2P", cursive;
+	font-size: 3rem;
+	margin: 5%;
+	color: #fef2bf;
 }
 
 .container {
-  display: block;
-  width: 50%;
-  margin: auto;
-
+	display: block;
+	width: 50%;
+	margin: auto;
 }
 
 .btn {
-  margin: 25px;
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
-  border-radius: 20%;
+	margin: 25px;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	border: 10px solid black;
+	border-radius: 20%;
 }
 
 .game-over {
-  background-color: red;
-  opacity: 0.8;
+	background-color: red;
+	opacity: 0.8;
 }
 
 .red {
-  background-color: red;
+	background-color: red;
 }
 
 .green {
-  background-color: green;
+	background-color: green;
 }
 
 .blue {
-  background-color: blue;
+	background-color: blue;
 }
 
 .yellow {
-  background-color: yellow;
+	background-color: yellow;
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+	box-shadow: 0 0 20px white;
+	background-color: grey;
+}
+
+.starter {
+	font-size: 15px;
+	font-family: Arial;
+	width: 140px;
+	height: 50px;
+	border-width: 1px;
+	color: black;
+	border-color: #9c8c44;
+	font-weight: bold;
+	border-top-left-radius: 28px;
+	border-top-right-radius: 28px;
+	border-bottom-left-radius: 28px;
+	border-bottom-right-radius: 28px;
+	text-shadow: #b9a449;
+	background: #fef2bf;
+}
+
+.starter:hover {
+	background: #5cbf2a;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.starter {
+		width: 100%;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.starter {
+		width: 100%;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.starter {
+		display: none;
+	}
 }

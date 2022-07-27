@@ -18,6 +18,16 @@ $(document).keypress(function () {
 	}
 });
 
+// If the start buton is presed
+$(".starter").click(function () {
+	if (!started) {
+		// The h1 title starts out saying "Press A Key to Start", when the game has started, change this to say "Level 0"
+		$("#level-title").text("Level" + level);
+		nextSequence();
+		started = true;
+	}
+});
+
 // Check for button clikcked
 $(".btn").click(function () {
 	var userChosenColour = $(this).attr("id");
