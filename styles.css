@@ -56,6 +56,7 @@ body {
 	font-family: Arial;
 	width: 140px;
 	height: 50px;
+	padding: 40px;
 	border-width: 1px;
 	color: black;
 	border-color: #9c8c44;
@@ -71,14 +72,14 @@ body {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 	.starter {
-		width: 100%;
+		width: 40%;
 	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.starter {
-		width: 100%;
+		width: 40%;
 	}
 }
 
