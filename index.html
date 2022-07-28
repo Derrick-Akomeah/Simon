@@ -12,7 +12,45 @@
 	</head>
 
 	<body>
-		<h1 id="level-title">Press A Key to Start</h1>
+		<div id="parent">
+			<h1 id="level-title" class="child">Press A Key to Start</h1>
+			<button id="modalButton" class="child">
+				<img
+					src="instructions.png"
+					alt="Instructions"
+					width="30px"
+					height="30px"
+				/>
+			</button>
+		</div>
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<!-- Modal Content -->
+			<div class="modalContent">
+				<span class="close">&times;</span>
+				<ul>
+					<li>
+						Press the start button or any button the the keyboard to begin
+					</li>
+					<li>A random light will flash. Press it to start the game</li>
+					<li>
+						Another color will flash. Repeat the sequence by pressing the same
+						color
+					</li>
+					<li>
+						The game will continue. After each light sequence that you repeat
+						successfully, a light will be added to the end.
+					</li>
+					<li>
+						When you don't complete a sequence successfully, the Simon game will
+						play a fail sound and you will have to start again. Try to beat your
+						high score!!
+					</li>
+				</ul>
+			</div>
+		</div>
+
 		<div class="container">
 			<div lass="row">
 				<div type="button" id="green" class="btn green"></div>
